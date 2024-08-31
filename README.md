@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ```
 
 ## Running the app
-If python file name `xyz.py`
+If the python file name: `xyz.py`
 ```bash
 uvicorn xyz:app --port=5000
 ```
