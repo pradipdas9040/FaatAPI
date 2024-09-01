@@ -32,5 +32,5 @@ async def hidden_quary_route(
     hidden_query: str | None=Query(None, include_in_schema=False)
 ):
     if hidden_query:
-        return({'hidden_query': hidden_query}) # http://127.0.0.1:8000/item_hidden?hidden_query=dhg will show {"hidden_query":"dhg"}
+        return({'hidden_query': hidden_query}) # For port=8000, http://127.0.0.1:8000/item_hidden?hidden_query=xyz -- will show {"hidden_query":"xyz"}
     return({'hidden_query': 'hidden query not define'})
