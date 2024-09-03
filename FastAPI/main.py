@@ -4,12 +4,12 @@ app = FastAPI()
 
 @app.get('/')
 async def root_base():
-    return {'masage': 'hello world'}
+    return {'massage': 'hello world'}
 
 @app.post('/')
 async def post():
-    return {'masage': 'hello from post root'}
+    return {'massage': 'hello from post route'}
 
 @app.put('/')
 async def put():
-    return {'masage':'hello from put'}
+    return {'massage':'hello from put route'}
