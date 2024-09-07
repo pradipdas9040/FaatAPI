@@ -1,6 +1,6 @@
 # Response Model
 
-from fastapi import FastAPI, Body, Cookie, Header # type: ignore
+from fastapi import FastAPI # type: ignore
 from pydantic import BaseModel, Field, EmailStr
 from typing import Literal
 
