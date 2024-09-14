@@ -26,5 +26,5 @@ uvicorn xyz:app --port=5000
 ```
 And for reload
 ```bash
-uvicorn main:app --reload
+uvicorn xyz:app --reload
 ```
